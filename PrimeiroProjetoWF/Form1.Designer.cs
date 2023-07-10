@@ -39,7 +39,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(320, 22);
+            label1.Location = new Point(86, 19);
             label1.Name = "label1";
             label1.Size = new Size(116, 15);
             label1.TabIndex = 0;
@@ -94,7 +94,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(286, 261);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(label3);
@@ -102,6 +102,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
